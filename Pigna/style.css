@@ -3,10 +3,6 @@
     margin:30px;
     animation: mymove 5s infinite;
 }
-/*
-@keyframes mymove {
-    100% {transform: rotate(360deg);}
-}*/
 .cls-1{
     fill:#93c01f;
     transition: 2s;
