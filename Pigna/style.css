@@ -1,57 +1,31 @@
 #Livello_1{
-    width: 300px;
-    margin:40%;
+    width: 100px;
+    margin:30px;
     animation: mymove 5s infinite;
 }
+/*
 @keyframes mymove {
     100% {transform: rotate(360deg);}
-}
+}*/
 .cls-1{
     fill:#93c01f;
-    transition: 3s;
+    transition: 2s;
 }
 .cls-1:hover{
     fill:red;
     transition: 1s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *{
     padding: 0;
     margin:0;
 }
 
-.div3d{
-    width: 50%;
-    height: 100vh;
-    display: block;
-
-}
-.svg{
-    width: 50%;
-    height: 100%;
-    display: block;
-}
-
-#c{
-    height: 100%;
+.header{
     width: 100%;
+    height: auto;
+    background-color: beige;
+    position:fixed;
 }
+
+
