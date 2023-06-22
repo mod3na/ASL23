@@ -1,7 +1,13 @@
+
 #Livello_1{
     width: 300px;
     margin:40%;
 }
+.cls-1{
+    fill:#93c01f;
+    transition: 3s;
+}
 .cls-1:hover{
     fill:red;
+    transition: 0.1s;
 }
