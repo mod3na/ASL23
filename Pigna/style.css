@@ -1,12 +1,13 @@
 #Livello_1{
-    width: 100px;
-    margin:30px;
-    animation: mymove 5s infinite;
+    height: 70%;
+    width: auto;
+    animation: 5s;
+    margin: 20px;
+    margin-left:60px;
 }
 
 .cls-2 {
     transition: transform 0.001ms; /* Sticking effect */
-    pointer-events: none; /* Allow clicking trough the div */
     transform: rotate(-15deg);
 }
 
@@ -25,17 +26,17 @@
 }
 
 *{
-    cursor: none;
     padding: 0;
     margin:0;
 }
 
 .header{
     width: 100%;
-    height: auto;
+    height: 130px;
     background-color: bisque;
     position:fixed;
-    transition: 1s;
+    display:flex;
+    flex-direction: row;
 }
 #studio,
 #grafica,
