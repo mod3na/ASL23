@@ -3,6 +3,7 @@
 
 let clas1,ClassGrafica,ClassStampa,ClassInsegne,ClassPromo,ClassAllestimenti;
 let headerClass;
+let cursore;
 
 window.onload = function(){
     ClassGrafica = document.getElementsByClassName('grafica');
@@ -10,11 +11,20 @@ window.onload = function(){
     ClassInsegne = document.getElementsByClassName('insegne');
     ClassPromo = document.getElementsByClassName('promozionale');
     ClassAllestimenti = document.getElementsByClassName('allestimenti');
+    cursore = document.querySelector('#Livello_2')
     
     clas1 = document.getElementsByClassName('cls-1');
     headerClass = document.getElementsByClassName("header")[0]
 
 }
+document.addEventListener('mousemove', function(ev){
+    cursore.style.transform = 'translateY('+(ev.clientY-48)+'px)';
+    cursore.style.transform += 'translateX('+(ev.clientX-50)+'px)';            
+},false);
+
+
+
+
 window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
     console.log(scroll)

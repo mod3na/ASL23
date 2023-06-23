@@ -3,12 +3,28 @@
     margin:30px;
     animation: mymove 5s infinite;
 }
+
+.cls-2 {
+    transition: transform 0.001ms; /* Sticking effect */
+    pointer-events: none; /* Allow clicking trough the div */
+    
+}
+
+
+
+#Livello_2{
+    width: 100px;
+    animation: mymove 5s infinite;
+    position: fixed;
+    z-index: 6;
+}
 .cls-1{
     fill:#93c01f;
     transition: 0.5s;
 }
 
 *{
+    cursor: none;
     padding: 0;
     margin:0;
 }
