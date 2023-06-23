@@ -5,7 +5,7 @@
 }
 .cls-1{
     fill:#93c01f;
-    transition: 2s;
+    transition: 1s;
 }
 .cls-1:hover{
     fill:red;
@@ -22,9 +22,8 @@
     height: auto;
     background-color: beige;
     position:fixed;
+    transition: 1s;
 }
 
-.grafica{
-    fill: blue !important;
-}
+
 

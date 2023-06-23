@@ -1,12 +1,13 @@
 
 //(window.scrollY + document.querySelector('#Livello_1').getBoundingClientRect().top)
 
-var ClassGrafica;
-var clas1;
+let clas1,ClassGrafica;
+let headerClass;
 
 window.onload = function(){
-    ClassGrafica = document.querySelector('.grafica');
-    clas1 = document.querySelector('.cls-1');
+    ClassGrafica = document.getElementsByClassName('grafica');
+    clas1 = document.getElementsByClassName('cls-1');
+    headerClass = document.getElementsByClassName("header")[0]
 
 }
 window.addEventListener("scroll", (event) => {
@@ -15,8 +16,13 @@ window.addEventListener("scroll", (event) => {
     console.log(ClassGrafica)
 
     if(scroll >= 200){
-        //clas1.style.setProperty("fill","transparent")
-        ClassGrafica.style.setProperty("fill","#D89BED","important")
+        for(let i = 0; i<clas1.length;i++){
+            clas1[i].style.setProperty("fill","transparent");
+        }
+        for(let i = 0; i<ClassGrafica.length; i++){
+            ClassGrafica[i].style.setProperty("fill","#D89BED","important");
+        }
+        
  
     }
     
