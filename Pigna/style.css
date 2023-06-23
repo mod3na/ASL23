@@ -2,7 +2,7 @@
     height: 70%;
     width: auto;
     animation: 5s;
-    margin: 20px;
+    margin: 20%;
     margin-left:60px;
 }
 
@@ -10,7 +10,6 @@
     transition: transform 0.001ms; /* Sticking effect */
     transform: rotate(-15deg);
 }
-
 
 
 #Livello_2{
@@ -31,8 +30,9 @@
 }
 
 .header{
+    transition: 0.2s height;
     width: 100%;
-    height: 130px;
+    height: 150px;
     background-color: bisque;
     position:fixed;
     display:flex;

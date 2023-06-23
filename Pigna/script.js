@@ -1,6 +1,3 @@
-
-//
-
 let clas1,ClassGrafica,ClassStampa,ClassInsegne,ClassPromo,ClassAllestimenti;
 let headerClass;
 let cursore;
@@ -25,6 +22,12 @@ window.onload = function(){
         scroll = this.scrollY;
         console.log(scroll)
         console.log(ClassGrafica)
+
+        if(scroll >= 200){
+            headerClass.style.height = "80px"
+        }else{
+            headerClass.style.height = "150px"
+        }
 
         if(scroll >= (window.scrollY + document.querySelector('#studio').getBoundingClientRect().top) && scroll < (window.scrollY + document.querySelector('#studio').getBoundingClientRect().bottom)){
 
