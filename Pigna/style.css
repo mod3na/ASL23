@@ -7,7 +7,7 @@
 .cls-2 {
     transition: transform 0.001ms; /* Sticking effect */
     pointer-events: none; /* Allow clicking trough the div */
-    
+    transform: rotate(-15deg);
 }
 
 
@@ -17,6 +17,7 @@
     animation: mymove 5s infinite;
     position: fixed;
     z-index: 6;
+    transform: rotate(5deg);
 }
 .cls-1{
     fill:#93c01f;

@@ -18,8 +18,8 @@ window.onload = function(){
 
 }
 document.addEventListener('mousemove', function(ev){
-    cursore.style.transform = 'translateY('+(ev.clientY-48)+'px)';
-    cursore.style.transform += 'translateX('+(ev.clientX-50)+'px)';            
+    cursore.style.transform = 'translateY('+(ev.clientY-33)+'px)';
+    cursore.style.transform += 'translateX('+(ev.clientX-60)+'px)';            
 },false);
 
 
