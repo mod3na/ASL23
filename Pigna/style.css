@@ -5,11 +5,7 @@
 }
 .cls-1{
     fill:#93c01f;
-    transition: 1s;
-}
-.cls-1:hover{
-    fill:red;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 *{
@@ -20,9 +16,37 @@
 .header{
     width: 100%;
     height: auto;
-    background-color: beige;
+    background-color: bisque;
     position:fixed;
     transition: 1s;
+}
+#studio,
+#grafica,
+#stampa,
+#insegne,
+#promozionale,
+#allestimenti{
+    width: 100%;
+    height: 30%;
+}
+
+#studio{
+    background-color: #9BBC06;
+}
+#grafica{
+    background-color: #D89BED;
+}
+#stampa{
+    background-color: #44BBA4;
+}
+#insegne{
+    background-color: #FF6F59;
+}
+#promozionale{
+    background-color: #0B4F6C;
+}
+#allestimenti{
+    background-color: #FFD400;
 }
 
 
