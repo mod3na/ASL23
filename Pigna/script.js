@@ -82,5 +82,5 @@ window.addEventListener("scroll", (event) => {
             ClassGrafica[i].style.setProperty("fill","#D89BED","important");
         }
     }
-    
+   
 });
