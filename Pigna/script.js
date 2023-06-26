@@ -16,6 +16,10 @@ window.onload = function(){
     clas1 = document.getElementsByClassName('cls-1');
     headerClass = document.querySelector(".header")
 
+    document.querySelector('.c1').style.setProperty("transform","translateY(300px)","important")
+    document.querySelector('.c1').style.setProperty("z-index","999","important")
+    document.querySelector('.c1').style.setProperty("position","absolute","important")
+    document.querySelector('.c1').style.setProperty("fill","#red","important")
 
 
     window.addEventListener("scroll", (event) => {
