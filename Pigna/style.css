@@ -1,27 +1,22 @@
 #Livello_1{
-    height: 70%;
-    width: auto;
+    height: auto;
+    width: 99%;
     animation: 5s;
-    margin: 20%;
-    margin-left:60px;
-}
-
-.cls-2 {
-    transition: transform 0.001ms; /* Sticking effect */
-    transform: rotate(-15deg);
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 
-#Livello_2{
-    width: 100px;
-    animation: mymove 5s infinite;
-    position: fixed;
-    z-index: 6;
-    transform: rotate(5deg);
+
+body{
+    background-color: #232323;
 }
 .cls-1{
-    fill:#93c01f;
+    transform: scale(70%);
     transition: 0.5s;
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c13,.c14,.c15,.c16,.c17,.c18,.c19,.c20,.c21,.c22,.c23,.c24,.c25{
+
 }
 
 *{
@@ -33,23 +28,19 @@
     transition: 0.2s height;
     width: 100%;
     height: 150px;
-    background-color: bisque;
+    background-color: #020d20;
     position:fixed;
     display:flex;
     flex-direction: row;
 }
-#studio,
-#grafica,
-#stampa,
-#insegne,
-#promozionale,
-#allestimenti{
+#studio, #grafica, #stampa, #insegne,
+#promozionale, #allestimenti{
     width: 100%;
-    height: 30%;
+    height: 100vh;
 }
 
 #studio{
-    background-color: #9BBC06;
+    background-color: #2d3508;
 }
 #grafica{
     background-color: #D89BED;
